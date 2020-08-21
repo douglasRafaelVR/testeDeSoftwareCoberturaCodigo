@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.sistemabancario.model.ContaTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.112 s <<< FAILURE! - in com.sistemabancario.model.ContaTest
+com.sistemabancario.model.ContaTest.testAddMovimentacaoDebito  Time elapsed: 0.003 s  <<< ERROR!
+java.lang.IllegalStateException: Valor superior ao saldo da conta.
+	at com.sistemabancario.model.ContaTest.testAddMovimentacaoDebito(ContaTest.java:120)
+
